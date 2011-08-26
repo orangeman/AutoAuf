@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoAuf</string>
+    <string name="invite">Automobilität für nur</string>
+    <string name="callToAction">Schicke <b>AUF</b> an die</string>
+    <string name="welcome">Willkommen\n</string>
+</resources>

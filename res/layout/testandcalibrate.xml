@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="42dip"
+    >
+    <Button 
+		android:id="@+id/auf"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:textColor="#4b6922"
+	    android:textStyle="bold"
+	    android:textSize="77dip"
+    	android:text="AUF"
+    />
+    <Button 
+		android:id="@+id/zu"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentLeft="true"
+	    android:textColor="#b11a12"
+	    android:textStyle="bold"
+	    android:textSize="77dip"
+    	android:text="ZU"
+    />
+</RelativeLayout>

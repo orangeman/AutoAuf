@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="42dip"
+    >
+<TextView  
+	android:id="@+id/callToAction"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="@string/callToAction"
+    android:textColor="#b11a12"
+    android:textSize="42dip"
+    />
+<TextView  
+	android:id="@+id/invite"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_above="@id/callToAction"
+    android:text="@string/invite"
+    android:textSize="23dip"
+    />
+<TextView  
+	android:id="@+id/phonenumber"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/callToAction"
+    android:layout_centerHorizontal="true"
+    android:textSize="55dip"
+    android:textStyle="bold"
+    />
+</RelativeLayout>

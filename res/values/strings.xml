@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoAuf</string>
+    <string name="invite">Automobility for  </string>
+    <string name="callToAction">Send <b>AUF</b> to </string>
+    <string name="welcome">Welcome </string>
+</resources>
